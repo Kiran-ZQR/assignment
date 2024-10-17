@@ -1,17 +1,5 @@
-Clone the repo
-```
-git clone https://github.com/venetanji/pfad
-```
+Update Assignment #2 (Sep 26)
+Please check my assignment in folder assignment/assignment2.
 
-Update the repo
-```
-git pull
-```
-
-Install requirements
-```
-cd pfad/week1/src
-pip install -r requirements.txt
-```
-
-
+Update Assignment #3 (Oct 17)
+Please check my assignment in folder assignment/assignment3.
