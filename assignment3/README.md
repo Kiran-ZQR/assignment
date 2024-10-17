@@ -18,7 +18,7 @@ This is a simple interactive game where the player can click on a shape (circle,
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/Kiran-ZQR/assignment-24088056G-
+   git clone https://github.com/Kiran-ZQR/assignment3
 2. Navigate to the project directory:
    cd shape-sound-interaction
 3. Install the required dependencies:
