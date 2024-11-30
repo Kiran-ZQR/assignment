@@ -1,0 +1,77 @@
+# Project Name: Poetic Abode
+
+## Project Overview
+**Poetic Abode** is an interactive application that helps users generate healing poetry based on their personalized "Guka Cottage" (咕卡小屋). Users can customize their Guka Cottage, and the application will generate warm, healing poetry tailored to their unique setup. The generated poetry will be displayed on a digital journal page. The app uses a pre-trained model to create personalized content, offering each user a unique and soothing experience.
+
+## Features
+1. **Personalized Guka Cottage**  
+   Users can customize their own Guka Cottage by selecting various decorations, themes, and elements. These choices will influence the generated poetry, ensuring a personalized healing experience.
+
+2. **Generate Healing Poetry**  
+   After customizing the Guka Cottage, users can click a button to generate a piece of healing poetry. The poetry is created using a pre-trained model, influenced by the user's cottage setup, bringing comfort and relaxation.
+
+3. **Digital Journal Display**  
+   The generated poetry is displayed on a digital journal page. Users can view, save, and share the poetry, capturing their personal healing moments.
+
+4. **History Log**  
+   Every generated poem is saved in the app, allowing users to revisit past poems and relive their healing moments.
+
+## Project Structure
+```bash
+PoeticAbode/
+├── assets/
+│   ├── bg/                  # Background images      
+│   ├── icon/                # Icons for the interface
+│   ├── poem_bg/ 
+│   ├── sounds/              # Sound files
+│   ├── stickers/            # Stickers for the Guka Cottage
+│   └── saved_artwork.png # Saved artwork image
+├── code/
+│   ├── main.py           # Custom Python code
+│   ├── .env(api key has been submit on the blackboard)                      # Environment variables for configuration
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
+```
+
+## Installation and Running
+1. Clone the project to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/PoeticAbode.git
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+   ```bash
+   python src/main.py
+   ```
+
+## Key Code Files
+### main.py
+The entry point of the application that starts the app and loads the user interface.
+
+### model.py
+This file contains the pre-trained generation model responsible for generating healing poetry based on the Guka Cottage setup.
+
+### ui.py
+Handles the user interface, including the display of the digital journal page and interactive elements like buttons for generating poetry.
+
+### journal.py
+Manages the display of the generated poetry on the journal page, allowing users to view, save, and revisit their poetry.
+
+### guka.py
+Contains the logic for customizing the Guka Cottage and generating poetry based on the user's selections.
+
+## Contribution
+If you would like to contribute to this project, please follow these steps:
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to your branch (`git push origin feature/your-feature-name`).
+5. Create a new Pull Request.
+
+## Contact
+- Project Members: Zhang Qingran 2048856g / Zeng Yuxi 24124083g

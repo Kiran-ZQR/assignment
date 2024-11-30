@@ -1,0 +1,29 @@
+pygame==2.5.1           # For creating the interactive user interface and handling graphical elements
+numpy==1.23.3           # For numerical operations (may be needed for model or image manipulation)
+torch==2.1.0            # For running pre-trained models (assuming you're using PyTorch for the model)
+transformers==4.32.0    # For text generation with pre-trained models (Hugging Face's transformers library)
+Pillow==9.3.0           # For handling images (e.g., room backgrounds, stickers)
+requests==2.28.2        # If you need to fetch any external resources or assets online
+python-dotenv==1.0.0    # For loading environment variables from the .env file
+openai==0.27.0          # OpenAI Python client for API access (e.g., GPT-3, GPT-4)
+```
+
+---
+
+### How to use this `requirements.txt`:
+
+1. Save the above content in a file named `requirements.txt` in the root directory of your project.
+
+2. To install the dependencies, run the following command in your project directory:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Explanation of the dependencies:
+- **pygame**: Used to create the interactive interface, display images, and handle sound.
+- **numpy**: Often required for numerical operations, especially when working with models or image processing.
+- **torch**: PyTorch is a common library for running machine learning models. It's likely needed for your pre-trained model (if you're using PyTorch).
+- **transformers**: Hugging Face’s `transformers` library is a popular choice for text generation models, so it's included in case you're using a language model for generating poetry.
+- **Pillow**: A powerful image processing library, which is useful for manipulating and displaying images (like room backgrounds and stickers).
+- **requests**: If your app needs to fetch external assets, such as sounds or images, from online sources.
+- **python-dotenv**: Allows you to manage environment variables, which could be helpful if you have sensitive configuration or keys stored in a `.env` file.
