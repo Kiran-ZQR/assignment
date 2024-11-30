@@ -9,3 +9,6 @@ Please check my  fix and resubmit assignment2 in folder assignment2~
 
 Fix and resubmit Assignment #3 (Oct 29)
 the sounds files should be in the "sounds" folder in folder assignment3
+
+Update Group Project (Nov 30)
+Please check my Group Project named Group Project/PoeticAbode.
